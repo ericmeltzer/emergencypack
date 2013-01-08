@@ -1,0 +1,161 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-weight:normal;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end reset*/
+
+strong {
+	font-weight:bold;
+}
+
+
+
+a {
+	text-decoration:none;
+	color:#bd000d;
+}
+
+
+h3 {
+	font-size:1.2em;
+	font-weight:normal;
+	font-style:italic;
+	margin:0px;
+}
+
+ol {	
+	padding:0px;
+	list-style-type:none;
+	list-style-position:inside;
+
+}
+
+
+ul {	
+	padding:0px;
+	margin-top:10px;
+	list-style-type:none;
+}
+
+
+li {
+	margin:100px 0px 100px 0px;
+}
+
+
+img.sketch {
+	
+}	
+
+div#ribbon {
+	width:70px;
+	margin-bottom:80px;
+	background-color:#bd000d;
+	color:white;
+	font:1.2em palatino ;
+	font-style:italic;
+	padding:5px 10px 5px 10px;
+	text-align:center;
+}
+
+
+p { 
+	margin: 28px 0px;
+	width:530px;
+	
+}
+
+
+div#post {
+
+	margin:0 auto;
+	padding-left:35px;
+	width:700px;
+	line-height:25px;
+	font-family:Helvetica, sans-serif;
+	font-size:15px;
+	text-align:justify;
+	color:#191919;
+	background-color:white;	
+
+}
+
+
+h1#top {
+	padding:10px 0px 10px 0px;
+}
+
+h1 {
+	font-size:18px;
+	font-family: Helvetica, sans-serif;
+	letter-spacing:2px;	
+	padding-bottom:35px;
+	margin:0px;
+}
+	
+
+
+h2 {	
+	margin: 20px 0px 0px 0px;
+	font-size:20px;
+	letter-spacing:1.3px;
+
+}
+
+h2 a { color:black;}
+
+
+
+
+div#footer {
+	height: 100px;
+	width: 1px;
+}
+
