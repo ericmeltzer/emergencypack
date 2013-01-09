@@ -7,10 +7,26 @@
   <link rel="stylesheet" href="css/style.css" />
 <script type="text/javascript" src="//use.typekit.net/ccw7pzm.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>
+$("document").ready(function() {
+ 
+                $('.scroller').click(function(){
+ 
+                    $('html, body').animate({
+                        scrollTop: 700
+                    }, 1000);
+ 
+                 });
+ 
+ 
+});
+</script>
 
 
 </head>
-<body style="background: url(images/bg.jpg) no-repeat 50% 0; padding-top:830px;">
+<body style="background: url(images/bg.jpg) no-repeat 50% 0; padding-top:100px;">
+<div id="scroller" class="scroller" style="width:800px; height:800px; cursor:pointer;">&nbsp;</div>
 
 <div id="body">
 
